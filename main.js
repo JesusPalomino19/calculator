@@ -49,32 +49,5 @@ function padNumbers() {
       }
     });
 }
-//   document.getElementById("body").onkeypress = function (e) {
-//     console.log(e.key);
-//     // switch (e.keyCode) {
-//     //   case 48:
-//     //   case 49:
-//     //   case 50:
-//     //   case 51:
-//     //   case 52:
-//     //   case 53:
-//     //   case 54:
-//     //   case 55:
-//     //   case 56:
-//     //   case 57:
-//     //     insertElement(e.key);
-//     //     break;
-//     //   case 47:
-//     //   case 42:
-//     //   case 45:
-//     //   case 43:
-//     //     insertElement(e.key);
-//     //     break;
-//     //   case 13:
-//     //     calculate();
-//     //     break;
-//     // }
-//   };
-//}
 
 padNumbers();

@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="styless.css">
   </head>
-  <body>
+  <body id= "body">
     <div class="calculator">
       <div class="input" id="input">
       </div>
@@ -21,7 +21,7 @@
           <div onclick="insertElement('+')">+</div>
           <div onclick="insertElement('-')">-</div>
           <div onclick="insertElement('*')">&times;</div>
-          <div onclick="insertElement('/')">&divide;</div>
+          <div onclick="insertElement('÷')">&divide;</div>
           <div onclick="insertElement('-1')"><[x]</div>
         </div>
         <div class="leftPanel">
@@ -46,7 +46,7 @@
             <div id="clear" onclick="deleteCalculate()">C</div>
           </div>
         </div>
-        <div class="equal" id="result" onclick="imputCalculate()">=</div>
+        <div class="equal" id="result" onclick="calculate()">=</div>
       </div>
     </div>
     <script src="main.js"></script>

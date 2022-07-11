@@ -28,5 +28,5 @@ function imputCalculate(){
 }
 
 function deleteCalculate(){
-    inputText.innerHTML= ' '
+    inputText.innerHTML= ''
 }

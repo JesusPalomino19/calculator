@@ -8,7 +8,12 @@ let inputText = document.getElementById("input")
 
 
 function insertElement(element){
-    inputText.innerHTML += element
+    if(element==-1){
+        let str_operation = ""+inputText.innerHTML
+        inputText.innerHTML = str_operation.substring(0,(str_operation.length-1))
+    }
+    else
+        inputText.innerHTML += element        
 }
 function imputCalculate(){
         let string_text = inputText.innerHTML 

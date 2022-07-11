@@ -17,6 +17,7 @@ function calculate() {
   let string_text = inputText.innerHTML;
   string_text = string_text.replace(/\s+/g, "");
   string_text = string_text.replace("÷", "/");
+  string_text = string_text.replace("x", "*");
   try {
     eval(string_text);
     inputText.innerHTML = eval(string_text);
@@ -45,6 +46,7 @@ function padNumbers() {
         if (event.key == "/") insertElement("÷");
         else if (event.key == "Enter") calculate();
         else if (event.key == "Backspace") insertElement(-1);
+        else if (event.key == "*") insertElement("x");
         else insertElement(event.key);
       }
     });

@@ -42,7 +42,8 @@ body {
   
   .operators {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    
   }
   
   .operators div {
@@ -56,7 +57,7 @@ body {
     background-color: #ddd;
     transition: border-color 0.2s ease-in-out, background-color 0.2s,
       box-shadow 0.2s;
-    border-radius: 120px;
+    border-radius: 40px;
   }
   
   .operators div:hover {
@@ -68,6 +69,9 @@ body {
   
   .operators div:active {
     font-weight: bold;
+  }
+  .backspace {
+    font-size: 24px
   }
   
   .leftPanel {
